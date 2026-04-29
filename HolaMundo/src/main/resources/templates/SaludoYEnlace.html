@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="https://www.thymeleaf.org">
+	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Saludo Y Enlace</title>
+
+</head>
+<body>
+    <h1 th:text="${saludo}"> </h1>
+	<h1 th:text="${mensaje}"></h1>
+	<a target="_blank" th:href="${url}">Lo mejo</a>
+</body>
+</html>
