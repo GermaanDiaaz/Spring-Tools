@@ -12,5 +12,11 @@
 	<h1>
 		Hola <span th:text="${persona.nombre + ' ' + persona.apellidos}"></span>
 	</h1>
+	<h2>
+		Nota Media: <span th:text="#{persona.notaMedia, 2}"></span>
+	</h2>
+	<h2>
+		Fecha Nacimineto: <span th:text="${persona.fechaNaz}"></span>
+	</h2>
 </body>
 </html>
