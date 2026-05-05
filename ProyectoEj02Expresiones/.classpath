@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ProyectoEj02Expresiones/src/main/java"/>
+	<classpathentry kind="src" path="ProyectoEj02Expresiones/src/test/java"/>
+	<classpathentry kind="output" path="ProyectoEj02Expresiones/target/classes"/>
+</classpath>
